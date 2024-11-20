@@ -11,10 +11,7 @@ jobs:
    strategy:
      matrix:
        php: 
-        - '7.3'
-        - '7.4'
-        - '8.0'
-        - '8.1'
+        - '8.4'
        tika: 
         - '1.15'
         - '1.16'
@@ -50,6 +47,7 @@ jobs:
         - '2.9.0'
         - '2.9.1'
         - '2.9.2'
+        - '3.0.0'
 
    name: PHP ${{ matrix.php }} - TIKA ${{ matrix.tika }}
  
